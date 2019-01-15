@@ -3,7 +3,7 @@ pkgname=$_pkgname-git
 pkgver=git
 pkgrel=1
 
-depends=("ocaml")
+makedepends=("ocaml")
 arch=("x86_64")
 
 conflicts=("weidu-bin" "weidu")
